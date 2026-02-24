@@ -61,12 +61,18 @@ Projeto desenvolvido individualmente como parte do meu portfólio para Analista 
 ### **Fase 4: Exportação**
 - CSVs limpos e KPIs exportados para Power BI/Looker.
 
+**Estrutura de Aquivos:**
+- Notebooks e dashboard diponíveis diretamente no repositório.
+- Dados (raw, limpos e KPIs) hospedados no Google Drive devido as tamnaho:
+- Acesse pelo link: https://drive.google.com/drive/folders/1JGf2eyRO_RTCi0e0uDfqKtDWdjfaKd5E?usp=sharing
+
+**Para replicar:**
+- Faça download da pasta olist/ do Drive.
+- Coloque na raiz do projeto.
+- Execute os Notebooks.
+
 **Estrutura de pastas no repositório:**
 .
-├── data/
-│   ├── raw/              # Originais Olist
-│   ├── cleaned/          # Tratados (7 CSVs)
-│   └── kpis/             # 9 CSVs com KPIs
 ├── notebooks/
 │   ├── 01_DataExploration.ipynb
 │   ├── 02_DataCleaning.ipynb
